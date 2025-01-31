@@ -1,3 +1,2 @@
-const char* ssid = "RaspberryPiAP";
-const char* password = "YourWiFiPassword";
-
+const char* ssid = "sirkusPiAP";
+const char* password = "sirkussolliledstriper";

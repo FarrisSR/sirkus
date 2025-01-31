@@ -16,6 +16,12 @@ unsigned long start_time = 0;
 unsigned long last_update = 0;
 int rotation_index = 0;
 
+
+const char* ssid = "sirkusPiAP";
+const char* password = "sirkussolliledstriper";
+const char* mqtt_server = "192.168.4.1"; // Raspberry Pi IP
+const char* topic = "led/1";
+
 void callback(char* topic, byte* payload, unsigned int length) {
   String message = String((char*)payload);
   if (message.indexOf("circle") >= 0) {

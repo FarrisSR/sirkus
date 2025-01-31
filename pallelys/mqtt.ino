@@ -3,9 +3,9 @@
 #include <FastLED.h>
 
 // Wi-Fi og MQTT-innstillinger
-const char* ssid = "YourWiFiSSID";
-const char* password = "YourWiFiPassword";
-const char* mqtt_server = "192.168.1.10"; // Raspberry Pi IP
+const char* ssid = "sirkusPiAP";
+const char* password = "sirkussolliledstriper";
+const char* mqtt_server = "192.168.4.1"; // Raspberry Pi IP
 const char* topic = "led/1";
 
 // LED-innstillinger

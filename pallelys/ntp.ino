@@ -2,9 +2,10 @@
 #include <WiFiUdp.h>
 #include <NTPClient.h>
 
-const char* ssid = "YourWiFiSSID";
-const char* password = "YourWiFiPassword";
-const char* ntpServer = "192.168.1.10"; // Raspberry Pi IP
+
+const char* ssid = "sirkusPiAP";
+const char* password = "sirkussolliledstriper";
+const char* ntpServer = "192.168.4.1"; // Raspberry Pi IP
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, ntpServer);
